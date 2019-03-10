@@ -1,19 +1,19 @@
-<<<<<<< HEAD
 #
 # This file contains configuration flags to customize your site
 #
 
 # Name of your site (displayed in the header)
-name: Your Username
+name: Sudeep Sahadevan
 
 # Short bio or description (displayed in the header)
-description: Programmer From Somewhere On Earth
+description: Bioinformatician at some place
 
 
 #
 # Flags below are optional
 #
-
+# source: https://stackoverflow.com/questions/20422279/github-pages-are-not-updating
+future: true
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
@@ -80,6 +80,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-=======
-theme: jekyll-theme-architect
->>>>>>> 825d13af996caea50f9be2a69b393c9b0d0da6f4
