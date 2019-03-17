@@ -1,18 +1,33 @@
 ---
 layout: default
+title: About me
 ---
+<div  id="main">
+    <p>
+        <h3>About me...</h3>
+        Hi there! I am Sudeep and this is my personal page. As you might have guessed from the title, I am a bioinformatician. This 
+        page is to tell a little bit about myself, what I is expertise/what I am working on and what are my interests and goals. <br><br>
+        Most of my work has been on Next Generation Sequencing data: primarily on RNA-seq data. I have also been woking on ChIP-seq datasets,
+        Ribo-seq datasets and a couple of custom "flavors" of sequencing data. In the past I have worked on CRISPR-Cas9 prediction pipeline and 
+        have been looking into integrative data analysis: combining data generated from biological experiments along with data and annotations from biological databases.
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+        <h3>So is that it?</h3>
+        Well not quite... besides bioinformatics, I am also interested in data science and the whole flurry of fields associated with it. I have some experience in <a href="https://academic.oup.com/jas/article-abstract/90/10/3666/4717907" target="_blank">text mining
+        and Named Entity recognition</a> and I am interested in machine learning, data representation and visualization. I occassionaly post some of my work in <a href="https://github.com/sudeepsahadevan" target="_blank">GitHub</a> and sometimes write up machine learning 
+        related kernels in <a href="https://www.kaggle.com/ssudeep" target="_blank">Kaggle</a>.
+        
+        <h3>Where do I work?</h3>
+        I work as a bioinformatics engineer/data analyst in Hentze group at EMBL Heidelberg, and I am in this position since January 2019. Here are the links to <a href="https://www.embl.de/research/units/directors_research/hentze/index.html" target="_blank">Hentze group 
+        home page</a> and my EMBL <a href="https://www.embl.de/research/units/directors_research/hentze/members/index.php?s_personId=CP-60019915" target="_blank">personal page</a> if you are interested. 
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <h3>Contact me</h3>
+        You can send me a mail through <a href="{{ site.baseurl }}/mail" target="popup" >this form</a>. 
+        Links to my <a href="https://github.com/sudeepsahadevan" target="_blank">GitHub</a> 
+        account, <a href="https://www.linkedin.com/in/sudeepsahadevan/" target="_blank">LinkedIn</a> 
+        homepage and <a href="https://www.kaggle.com/ssudeep" target="_blank">Kaggle</a> account can 
+        also be found in the top banner.
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">Read More</a>
-    </article>
-  {% endfor %}
+    </p>
+    
 </div>
+

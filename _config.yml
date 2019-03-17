@@ -6,7 +6,7 @@
 name: Sudeep Sahadevan
 
 # Short bio or description (displayed in the header)
-description: Bioinformatician at some place
+description: Bioinformatician
 
 
 #
@@ -18,18 +18,19 @@ timezone: Europe/Berlin
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: 
+  email: mail@mail.com
   facebook:
   flickr:
+  linkedin: sudeepsahadevan
   github: sudeepsahadevan
   kaggle: ssudeep
   instagram:
-  linkedin: sudeepsahadevan
-  pinterest:
+  
+  pinterest: 
   rss: # just type anything here for a working RSS icon
   twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/3807565/akshay"
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube:
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 

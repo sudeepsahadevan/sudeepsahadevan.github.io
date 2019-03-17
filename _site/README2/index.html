@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jekyll-Mono – Sudeep Sahadevan – Bioinformatician</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Bioinformatician">
+    <meta property="og:description" content="Bioinformatician" />
+    
+    <meta name="author" content="Sudeep Sahadevan" />
+
+    
+    <meta property="og:title" content="Jekyll-Mono" />
+    <meta property="twitter:title" content="Jekyll-Mono" />
+    
+
+     <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.css" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" title="Sudeep Sahadevan - Bioinformatician" href="/feed.xml" />
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans|Montserrat' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <div class="intro-header clearfix">
+        <div class="wrapper-masthead clearfix">
+         <div class="wrapper-subhead">
+            <div class="left">
+                <div class="ch-img-1">
+                </div>
+             </div>
+            <div class="container">
+                <header class="masthead clearfix">
+                  <div class="site-info">
+                    <h1 class="site-name"><a href="/">Sudeep Sahadevan</a></h1>
+                    <p class="site-description">Bioinformatician</p>
+                  </div>
+                  <nav class="nav-site">
+                    <a href="/">About</a>
+                    <a href="/cv">CV</a>
+                  </nav>
+                </header>
+              </div>
+              <div class="container icon-hd">
+                <div class="svg-icon-hd">
+                  <a href="/mail" target="popup" ><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/sudeepsahadevan " target='_blank' ><i class="fab fa-linkedin-in "></i></a>
+<a href="https://github.com/sudeepsahadevan " target='_blank' ><i class="fab fa-github"></i></a>
+<a href="https://kaggle.com/ssudeep " target='_blank' ><i class="fab fa-kaggle"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+              </div>
+         </div>
+       </div>
+      </div>
+    <div class="bg-container">
+      <article class="page">
+
+  <h1>Jekyll-Mono</h1>
+
+  <div class="entry">
+    <h1 id="jekyll-mono">Jekyll-Mono</h1>
+
+<p><strong>Jekyll-Mono</strong> is a simple and elegant GitHub Profile cum Blog theme based on Barry Clark’s <a href="https://github.com/barryclark/jekyll-now">Jekyll-Now</a>. It’s a result of my attempt to learn <strong>Jekyll</strong> and create a minimalistic theme to put up my CV alongwith some blog posts.</p>
+
+<p>It is crafted with 💙 by <a href="https://github.com/AkshayAgarwal007">Akshay Agarwal</a>.</p>
+
+<p><img src="/images/ss.png" alt="Jekyll-Mono Home Page" /></p>
+
+<h2 id="what-is-jekyll">What is Jekyll?</h2>
+
+<p>It is a static site generator. It takes your content written in Markdown, passes it through your templates and spits it out as a complete static website, ready to be served using GitHub pages for free.
+Because your entire blog is static it serves and perform faster. It consumes less web resources namely memory and I/O.</p>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>Let’s quickly set up your new blog in a matter of minutes.</p>
+
+<h3 id="fork-this-repository">Fork this repository</h3>
+
+<p>Hit the “Fork” button in the top-right corner of the repository to fork a copy of this theme to your GitHub account and rename it to <strong>yourusername.github.io</strong> and then visit https://yourusername.github.io and you’ll be able to see your newly created blog using Jekyll-Mono.</p>
+
+<h3 id="customise-jekyll-mono">Customise Jekyll-Mono</h3>
+
+<p>So now your blog is live with its default settings. Let’s customise it now.</p>
+
+<p>Edit the _config.yml and enter your site name and description. You can easily turn on Google Analytics tracking, Disqus commenting and cool loking social icons here too.</p>
+
+<p>Jekyll-Mono also comes with the option of setting up the color scheme of your blog. You can do this by editing _variables.scss that lies inside the _sass folder. You can change the main theme color by simply replacing the current hex color value of <code class="highlighter-rouge">$mono</code> with the one of your choice. A few main theme sample colors are included in there as comments. Apart from the main theme color you can also change the header link color, navbar hover color, hyperlink color as well as the color of the various headings.</p>
+
+<p>A look at the customisations you can do with _variable.scss</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Main theme colors 
+// Some cool main theme colors(violet:#8476ad;blue:#5cacee;red:#ff7373,#ff6f69;green:#6acf64,#2ddbb3;orange:#ffa268)
+
+$mono-color:#8476ad;                // main theme color(header, links, footer icons, buttons, post-title)
+$hl-color: $darkGray;              // header link color (author name and posted on date) for blog post meta 
+$navbar-hover-color:$gray;        // navbar hover color (site name and navbar links hover color)
+$link-color: $darkerGray;        // normal hyperlink color other than the ones above.
+
+
+// Heading colors
+// You can play around with these too!
+$h1-color: $mono-color;
+$h2-color: $mono-color; 
+$h3-color: $darkerGray; 
+$h4-color: $gray;
+</code></pre></div></div>
+<p>Have a look at Jekyll-Mono with four different main theme colors.</p>
+
+<p><img src="/images/ss-color.png" alt="Jekyll Mono in 4 different colors" /></p>
+
+<p>Finally you need to set up your avatar. Pick up your avatar, resize it to 220x220px simply using paint or any editor of your choice and upload it to the images folder. Now open _variables.scss, you’ll see something like this <code class="highlighter-rouge">$avatar: "/images/avatar.jpg";</code>. Here change the avatar.jpg to what you have uploaded just now.</p>
+
+<h3 id="start-blogging">Start Blogging</h3>
+
+<p>Publish your first blog post by editing /_posts/2016-03-06-Eternal-Lorem-Ipsum.md. <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a> might come in handy while writing your blog posts in Markdown. If you are not comfortable with writing in Markdown you can use <a href="http://prose.io/">Prose</a> for writing your blog posts. <a href="https://developmentseed.org/blog/2012/june/25/prose-a-content-editor-for-github/s">This</a> will help you in setting up prose.</p>
+
+<p><img src="/images/post.PNG" alt="Post" /></p>
+
+<p>To create a post just click on create new file button in /_posts/. Create a new file with the following naming convention: <strong>year-month-day-title.md</strong>. Also make sure to include the front-matter at the top of each new blog post.</p>
+
+<p>You can see the front matter at the top of /_posts/2016-03-06-Eternal-Lorem-Ipsum.md. It looks something like this. You have to change the title and author according to your post. The layout will remain the same.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gd">--- 
+</span>layout: post
+title: The Eternal Lorem Ipsum Placeholder Text Here
+author: Author Name
+---
+
+</code></pre></div></div>
+
+<h3 id="about-and-projects-page">About and Projects Page</h3>
+
+<p>In the parent folder you’ll find about.md and projects.md. These are templates for helping you to set up your biodata/CV and projects that will be available at yourusername.github.io/about and yourusername.github.io/projects respectively. Again you can edit it in Markdown on GitHub or using Prose as per your choice.</p>
+
+<h2 id="demo">Demo</h2>
+
+<p>You can see the live demo of this theme at http://akshayagarwal007.github.io/Jekyll-Mono/</p>
+
+<h2 id="local-development">Local Development</h2>
+
+<p>For setting up your development environment you can follow the official Jekyll <a href="https://jekyllrb.com/docs/installation/">Documentation</a>. It’s a little bit complicated for Windows users. Let’s see how it’s done on windows:</p>
+
+<ol>
+  <li>
+    <p><strong>Install Chocolatey</strong>. <strong><a href="https://chocolatey.org">Chocolatey</a></strong> is a package manager for windows. It’s awesome. 
+Open a command propmt with administrator access. Paste this. Hit Enter and restart the command prompt.</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" &amp;&amp; SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+   
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><strong>Install Ruby</strong> : In your command prompt type <code class="highlighter-rouge">choco install ruby -y</code>.
+ Hit Enter. After installation restart the cmd with administrator privileges.</p>
+  </li>
+  <li>
+    <p><strong>Install Jekyll/Sass (plug-ins used by GitHub Pages)</strong>: <code class="highlighter-rouge">gem install github-pages</code></p>
+  </li>
+  <li>
+    <p><strong>Clone your fork of Jekyll-Mono</strong> <code class="highlighter-rouge">git clone https://github.com/yourusername/yourusername.github.io.git</code></p>
+  </li>
+  <li>
+    <p><strong>Serve the site</strong> by <code class="highlighter-rouge">jekyll serve</code>. It regenerates itself after any changes has been made.</p>
+  </li>
+  <li>
+    <p><strong>View your site</strong> at http://127.0.0.1:4000/</p>
+  </li>
+  <li>
+    <p>If you make any changes to _config.yml you’ll need to rebuild the site using <code class="highlighter-rouge">jekyll build</code> and then again a <code class="highlighter-rouge">jekyll serve</code> to serve it. You’ll need to do a rebuild only if you want to see the changes locally, else you can simply commit your changes and push them to your GitHub repo, GitHub pages will rebuild and serve your website.</p>
+  </li>
+</ol>
+
+<h2 id="credits">Credits</h2>
+
+<ul>
+  <li><a href="https://github.com/barryclark">Barry Clark</a> for creating <a href="https://github.com/barryclark/jekyll-now">Jekyll-Now</a> on which this theme is based.</li>
+  <li><a href="https://github.com/crnacura">Manoela Ilic</a> of Codrops for writing awesome articles on web design.</li>
+  <li><a href="https://github.com/davidtmiller">David Miller</a> of Blackrock Digital for making awesome open source themes.</li>
+  <li><a href="https://github.com/jekyll/jekyll">Jekyll</a> - Thanks to its creator and contributors.</li>
+  <li><a href="http://fontawesome.io">Font-Awesome</a> - Thanks to its creator and contributors.</li>
+</ul>
+
+<h2 id="contributing">Contributing</h2>
+
+<ul>
+  <li>Found a bug? Report it on GitHub <a href="https://github.com/AkshayAgarwal007/Jekyll-Mono/issues">Issues</a> and include a code sample.</li>
+  <li><a href="https://github.com/AkshayAgarwal007/Jekyll-Mono/fork">Fork</a> the repository and start your own blog using it and let me know about it so that I can include a reference to it here. Probably the best way you can contribute :)</li>
+  <li>If you find anything that’s wrong or want to talk to me about anything related to this theme or want to contribute in any way, please feel free to <a href="mailto:agarwal.akshay.akshay8@gmail.com">mail me</a>.</li>
+</ul>
+
+<h2 id="license">License</h2>
+
+<p>Jekyll-Mono is licensed under <a href="https://github.com/AkshayAgarwal007/Jekyll-Mono/blob/master/LICENSE.txt">MIT</a>.</p>
+
+
+  </div>
+</article>
+
+    </div>
+    
+
+  </body>
+</html>
