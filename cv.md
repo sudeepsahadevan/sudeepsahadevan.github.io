@@ -160,18 +160,32 @@ permalink: /cv
     <td> C++</td>
     <td><i class="fas fa-circle"/> <i class="fas fa-adjust"/> <i class="far fa-circle"/> <i class="far fa-circle"/> <i class="far fa-circle"/></td>
   </tr>
-  <tr align="left" class="tech-head">
-    <td colspan="2" class="tech-head"> Database management</td>
-  </tr>
-  <tr>
-    <td> SQL</td>
-    <td><i class="fas fa-circle"/> <i class="fas fa-circle"/> <i class="far fa-circle"/> <i class="far fa-circle"/> <i class="far fa-circle"/></td>
-  </tr>
   <tr align="left">
     <td colspan="2" class="tech-head"> Revision control</td>
   </tr>
   <tr>
     <td>Git</td>
     <td><i class="fas fa-circle"/> <i class="fas fa-circle"/> <i class="fas fa-adjust"/> <i class="far fa-circle"/> <i class="far fa-circle"/></td>
+  </tr>
+  <tr align="left" class="tech-head">
+    <td colspan="2" class="tech-head">Workflow</td>
+  </tr>
+  <tr>
+    <td>Snakemake</td>
+    <td><i class="fas fa-circle"/> <i class="fas fa-circle"/> <i class="far fa-circle"/> <i class="far fa-circle"/> <i class="far fa-circle"/></td>
+  </tr>
+  <tr align="left" class="tech-head">
+    <td colspan="2" class="tech-head">Containerization</td>
+  </tr>
+  <tr>
+    <td>Singularity</td>
+    <td><i class="fas fa-circle"/> <i class="fas fa-circle"/> <i class="far fa-circle"/> <i class="far fa-circle"/> <i class="far fa-circle"/></td>
+  </tr>
+  <tr align="left" class="tech-head">
+    <td colspan="2" class="tech-head"> Database management</td>
+  </tr>
+  <tr>
+    <td> SQL</td>
+    <td><i class="fas fa-circle"/> <i class="fas fa-circle"/> <i class="far fa-circle"/> <i class="far fa-circle"/> <i class="far fa-circle"/></td>
   </tr>
 </table>
