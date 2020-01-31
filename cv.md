@@ -87,6 +87,17 @@ permalink: /cv
 ***
 <table class="info research-experience">
   <tr>
+    <td class="pos-info"> EMBL Heidelberg</td>
+  </tr>
+  <tr>
+    <td>
+      <ul class="fa-ul">
+        <li> <span class="fa-li" ><i class="far fa-circle fa-xs"></i></span> Developed R/Bioconductor package <a href="https://bioconductor.org/packages/release/bioc/html/DEWSeq.html" target="_blank"> DEWSeq</a> for the analysis of eCLIP/iCLIP datasets </li>
+        <li> <span class="fa-li" ><i class="far fa-circle fa-xs"></i></span> Co-developed python package htseq-clip <a href="https://pypi.org/project/htseq-clip/" target="_blank"> htseq-clip</a> for processing eCLIP/iCLIP datasets </li>
+      </ul>
+    </td>  
+  </tr>
+  <tr>
     <td class="pos-info"> University of Copenhagen</td>
   </tr>
   <tr>
